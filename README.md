@@ -7,7 +7,6 @@ This is a RESTful API that calculates shipping costs based on **weight, distance
 - Store pricing data in MongoDB
 - Calculate shipping costs dynamically
 - Optimized queries for performance
-- RESTful API structure
 
 ## Prerequisites
 
@@ -20,9 +19,8 @@ Make sure you have the following installed:
 
 1. **Clone the repository**
 
-```sh
-git clone https://github.com/your-repo/shipping-api.git
-cd shipping-api
+```https
+git clone https://github.com/nwabuezenonso/shipment_pricing_api.git
 ```
 
 2. **Install dependencies**
