@@ -25,7 +25,7 @@ git clone https://github.com/nwabuezenonso/shipment_pricing_api.git
 
 2. **Install dependencies**
 
-```sh
+```https
 npm install
 ```
 
@@ -33,29 +33,28 @@ npm install
    Create a `.env` file in the root directory and add your MongoDB connection string:
 
 ```
-MONGO_URI=mongodb://localhost:27017/shippingDB
-PORT=5000
+MONGO_URI=YOUR_MONGODB_URL
 ```
 
 4. **Seed the database with pricing data**
 
-```sh
+```
 node seed.js
 ```
 
 5. **Start the server**
 
-```sh
+```
 npm start
 ```
 
-The API will run on `http://localhost:5000` by default.
+The API will run on `http://localhost:8800` by default.
 
 ## API Endpoints
 
 ### 1. **Calculate Shipping Cost**
 
-**Endpoint:** `POST /api/shipping/calculate`
+**Endpoint:** `POST /api/shipping/calculate/cost`
 
 **Request Body:**
 
